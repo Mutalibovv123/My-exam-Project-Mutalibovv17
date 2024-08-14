@@ -1,0 +1,803 @@
+* {
+    margin: 0%;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0% auto;
+}
+
+/* HEADER */
+.header {
+    margin-top: 30px;
+
+}
+
+.header_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* NAVIGATION */
+.nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    margin-right: 440px;
+
+
+}
+
+.nav-item a {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 18.75px;
+    color: rgba(21, 12, 1, 1);
+}
+
+.nav-item-orange a {
+    color: rgba(220, 120, 11, 1);
+    font-weight: 500;
+}
+
+.nav-item a:hover {
+    color: rgba(220, 120, 11, 1);
+    
+}
+
+/* BOOKING */
+.Booking {
+    border: 1px solid rgba(220, 120, 11, 1);
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-left: 35px;
+    padding-bottom: 15px;
+    padding-right: 35px;
+    background-color: rgba(220, 120, 11, 1);
+    font-size: 16px;
+    line-height: 18.75px;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
+.Booking:hover {
+    color: blue;
+   
+}
+
+/* MAIN */
+.main {
+    margin-top: 92px;
+}
+
+.main_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* MAIN LEFT */
+.main_title {
+    font-family: 'Philosopher';
+    font-size: 48.83px;
+    line-height: 57.6px;
+    font-weight: 700;
+    color: rgba(21, 12, 1, 1);
+}
+
+.main_description {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: rgba(21, 12, 1, 1);
+    margin-top: 20px;
+}
+
+.Order_now {
+    margin-top: 70px;
+}
+
+
+.orange_order {
+    border: 1px rgba(220, 120, 11, 1);
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 18.75px;
+    font-weight: 500;
+    background-color: rgba(220, 120, 11, 1);
+    padding-top: 25px;
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-bottom: 25px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+}
+.orange_order:hover {
+    color: blue;
+
+}
+
+.food_details {
+    border: 1.5px solid rgba(220, 120, 11, 1);
+    border-radius: 5px;
+    padding-top: 25px;
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-bottom: 25px;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 18.75px;
+    color: rgba(220, 120, 11, 1);
+    position: relative;
+    left: 20px;
+}
+.food_details:hover {
+    color: blue;
+}
+
+/* SECOND PAGE */
+.second_page {
+    margin-top: 80px;
+}
+
+.Features_title {
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.75px;
+    color: rgba(220, 120, 11, 1);
+}
+
+.food_with_passion {
+    text-align: center;
+    font-family: 'Philosopher';
+    font-size: 31.25px;
+    line-height: 35px;
+    font-weight: 700;
+    color: rgba(21, 12, 1, 1);
+}
+
+/* SECOND PAGE BOTTOM */
+.second_page_bottom {
+    margin-top: 30px;
+}
+
+/* FIRSTCARD */
+.house_picture {
+    position: relative;
+    bottom: 50px;
+    left: 38px;
+
+
+}
+
+.circle_of_house {
+    position: relative;
+    bottom: 30px;
+    left: 110px;
+}
+
+.firstcard_title {
+    font-family: 'Philosopher';
+    font-size: 25px;
+    line-height: 24px;
+    color: rgba(21, 12, 1, 1);
+    text-align: center;
+
+
+}
+
+.firstcard_desc {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(21, 12, 1, 1);
+    text-align: center;
+    margin-top: 10px;
+    position: relative;
+    top: 10px;
+}
+
+.second_page_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 120px;
+}
+
+/* SECONDCARD */
+.Food_delivery {
+    position: relative;
+    left: 85px;
+    bottom: 10px;
+}
+
+
+
+.second_card_title {
+    font-family: 'Philosopher';
+    font-size: 25px;
+    line-height: 24px;
+    color: rgba(21, 12, 1, 1);
+    text-align: center;
+    position: relative;
+    margin-top: 15px;
+
+
+}
+
+.secondcard_desc {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(21, 12, 1, 1);
+    text-align: center;
+    position: relative;
+    margin-top: 15px;
+}
+
+/* THIRDCARD */
+.emoji_circle {
+    position: relative;
+    bottom: 30px;
+    left: 100px;
+}
+
+.Super_taste {
+    position: relative;
+    bottom: 45px;
+    left: 27px;
+}
+
+.third_card_title {
+    font-family: 'Philosopher';
+    font-size: 25px;
+    line-height: 24px;
+    color: rgba(21, 12, 1, 1);
+    text-align: center;
+
+
+}
+
+.thirdcard_desc {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(21, 12, 1, 1);
+    text-align: center;
+    position: relative;
+    top: 18px;
+}
+
+/* ABOUT US */
+.About_us {
+    margin-top: 127px;
+}
+
+.About_us_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 90px;
+}
+
+.About_us_own {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: rgba(220, 120, 11, 1);
+
+}
+
+.About_us_title {
+    font-size: 31.25px;
+    line-height: 40.63px;
+    font-family: 'Philosopher';
+    font-weight: 700;
+    color: rgba(21, 12, 1, 1);
+    margin-top: 5px;
+}
+
+.About_us_desc {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(21, 12, 1, 1);
+    margin-top: 15px;
+
+}
+
+.Read_more_button {
+    border: 1px solid rgba(220, 120, 11, 1);
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 18.75px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+    background-color: rgba(220, 120, 11, 1);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-decoration: none;
+    position: relative;
+    top: 35px;
+
+}
+.Read_more_button:hover {
+    color: blue;
+}
+
+/* FOOD CARDS */
+.food_cards {
+    margin-top: 200px;
+}
+
+
+.menu_orange {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: rgba(220, 120, 11, 1);
+    text-align: center;
+}
+
+.Food_love {
+    font-family: 'Philosopher';
+    font-size: 31.25px;
+    color: rgba(21, 12, 1, 1);
+    line-height: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.fast_food_desc {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(21, 12, 1, 1);
+    text-align: center;
+}
+
+/* VEGIA MUFFEN */
+.food_cards_bottom_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.Vegie_Muffen_card {
+    border: 1px solid grey;
+    border-radius: 75px 10px 10px 10px;
+
+}
+
+.Vegia_Muffen_price {
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    margin-top: 20px;
+}
+
+.Vegie_Muffen_title {
+    font-family: 'Philosopher';
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 24px;
+    color: rgba(21, 12, 1, 1);
+    padding-left: 10px;
+}
+
+.sixteen_dollar {
+    font-family: 'Philosopher';
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 24px;
+    color: rgba(21, 12, 1, 1);
+    text-align: right;
+
+}
+
+.Vegie_Muffen_desc {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(21, 12, 1, 1);
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.star_group {
+    position: relative;
+    left: 240px;
+    bottom: 40px;
+}
+.Plus_image {
+    padding-left: 10px;
+}
+
+.twelfe_dollar {
+    font-family: 'Philosopher';
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 24px;
+    color: rgba(21, 12, 1, 1);
+    text-align: right;
+    position: relative;
+    left: 80px;
+
+}
+
+.ten_dollar {
+    font-family: 'Philosopher';
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 24px;
+    color: rgba(21, 12, 1, 1);
+    text-align: right;
+    position: relative;
+    left: 80px;
+}
+
+/* SECOND-BOTTOM */
+.second_bottom {
+    margin-top: 25px;
+}
+
+.second_bottom_container {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    gap: 25px;
+}
+
+.fourteen_dollar {
+    font-family: 'Philosopher';
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 24px;
+    color: rgba(21, 12, 1, 1);
+    text-align: right;
+    position: relative;
+    right: 20px;
+}
+
+.nine_dollar {
+    font-family: 'Philosopher';
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 24px;
+    color: rgba(21, 12, 1, 1);
+    text-align: right;
+    position: relative;
+    left: 35px;
+}
+
+.fifteen_dollar {
+    font-family: 'Philosopher';
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 24px;
+    color: rgba(21, 12, 1, 1);
+    text-align: right;
+    position: relative;
+    right: 20px;
+}
+
+.fish_title {
+    font-family: 'Philosopher';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    color: rgba(21, 12, 1, 1);
+ padding-left: 10px;
+
+   padding-left: 10px;
+}
+
+.Delmonico_title {
+    font-family: 'Philosopher';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: rgba(21, 12, 1, 1);
+    
+    padding-left: 10px;
+}
+
+.Learn_more_button {
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid rgba(220, 120, 11, 1);
+    color: rgba(220, 120, 11, 1);
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 35px;
+    padding-left: 35px;
+    position: relative;
+    left: 630px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.75;
+    bottom: 35px;
+}
+.Learn_more_button:hover {
+    color: blue;
+}
+
+
+/* TAKE AWAY PART */
+.Take_away {
+   
+    background-color: rgba(251, 241, 231, 1);
+    border: 1.5px rgba(21, 12, 1, 1);
+}
+
+
+.take_away_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+}
+
+.take_away_own {
+    font-size: 16px;
+    line-height: 24px;
+padding-left: 20px;
+    color: rgba(220, 120, 11, 1);
+    font-weight: 500;
+}
+
+.take_away_title {
+    font-family: 'Philosopher';
+    font-size: 31.25px;
+    line-height: 40.63px;
+    font-weight: 700;
+    color: rgba(21, 12, 1, 1);
+    margin-top: 5px;
+    padding-left: 20px;
+}
+
+.take_away_desc {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(21, 12, 1, 1);
+    margin-top: 15px;
+   
+    padding-left: 20px;
+}
+.play_market {
+    padding-left: 20px;
+}
+
+
+.phone_picture {
+    width: 206.99px;
+    position: relative;
+    left: 30px;
+}
+
+/* TESTIMONIAL */
+
+.testimonial_part {
+    margin-top: 100px;
+}
+.testimonial_own {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+
+    color: rgba(220, 120, 11, 1);
+    text-align: center;
+}
+
+.testimonial_title {
+    font-family: 'Philosopher';
+    font-size: 24px;
+    line-height: 31.25px;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 700;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.testimonial_top_desc {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    margin-top: 10px;
+    width: 740px;
+    position: relative;
+left: 165px;
+
+}
+
+.round_picture_girl {
+    position: relative;
+    left: 540px;
+}
+
+.testimonial_bottom_desc {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    margin-top: 25px;
+    width: 506px;
+    position: relative;
+    left: 300px;
+}
+
+.testimonial_star_group {
+    position: relative;
+    left: 530px;
+    margin-top: 20px;
+
+}
+
+.testimonial_name {
+    font-size: 16px;
+    line-height: 18.75px;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    font-weight: 400;
+}
+
+.testimonial_job {
+    font-size: 12px;
+    line-height: 14.06px;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    font-weight: 400;
+}
+
+/* CONTACT */
+.contact {
+  margin-top: 100px;
+    background-color: rgb(255, 239, 210);
+
+}
+
+
+
+.contact_own {
+    font-size: 16px;
+    line-height: 18.75;
+    color: rgba(220, 120, 11, 1);
+    font-weight: 500;
+    position: relative;
+    right: 15px;
+
+    text-align: center;
+}
+
+.contact_title {
+    font-family: 'Philosopher';
+    font-weight: 700;
+    font-size: 31.25px;
+    line-height: 40.6px;
+    color: rgba(21, 12, 1, 1);
+    text-align: center;
+    position: relative;
+    bottom: 130px;
+    width: 749px;
+left: 175px;
+}
+
+.email {
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 550px;
+    padding-left: 50px;
+    position: relative;
+    bottom: 100px;
+    left: 90px;
+}
+
+.contact_send {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 40.6px;
+    font-weight: 500;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(220, 120, 11, 1);
+    border-radius: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgba(220, 120, 11, 1);
+    position: relative;
+ bottom: 100px;
+ right: 30px;
+
+}
+.contact_send:hover {
+    color: rgb(11, 112, 220);
+}
+/* FOOTER */
+.footer {
+
+    background-color: rgba(37, 37, 37, 1);
+}
+
+.footer_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgba(37, 37, 37, 1);
+    padding-top: 120px;
+    padding-bottom: 120px;
+   
+}
+
+.links_of_company {
+    list-style: none;
+}
+
+.logo_footer {
+    position: relative;
+    bottom: 70px;
+    left: 100px;
+}
+
+.name_and_email a {
+    font-size: 14px;
+    line-height: 16.41px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+.Home_footer {
+    font-size: 18px;
+    line-height: 20.16px;
+    font-weight: 700;
+    font-family: 'Philosopher';
+    position: relative;
+    bottom: 60px;
+    left: 100px;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
+
+.Home_footer a {
+    text-decoration: none;
+}
+
+.Company_footer {
+    font-size: 18px;
+    line-height: 20.16px;
+    font-weight: 700;
+    font-family: 'Philosopher';
+    position: relative;
+    bottom: 40px;
+    left: 115px;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.Company_footera {
+    text-decoration: none;
+}
+
+.home_links {
+    list-style: none;
+}
+
+.social_media_icons {
+    position: relative;
+    top: 50px;
+    right: 145px;
+}
+
+/* THE END */
